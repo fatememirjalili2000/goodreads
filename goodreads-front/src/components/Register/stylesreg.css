@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Vazir";
+  src: local("Vazir"), url(../fonts/Vazir.ttf) format("truetype");
+}
+
+.sign {
+  position: relative;
+  height: 670px;
+  width: 450px;
+  margin: auto;
+  right: 10px;
+  top: -5px;
+  right: 40px;
+  direction: rtl;
+  text-align: right;
+  font-family: Vazir;
+}
+.buttons {
+  width: 450px;
+  background-color: #28c5cc !important;
+  border-color: #28c5cc !important;
+  font-family: Vazir;
+}
+.imgs {
+  position: relative;
+  right: 100px;
+  width: 250px;
+}
+.icons {
+  position: relative;
+  right: 190px;
+  top: 16px;
+  height: 100px;
+  width: 60px;
+}
+.icontexts {
+  position: relative;
+  right: 190px;
+  top: 1px;
+  font-family: Vazir;
+}
+.warningtexte {
+  font-family: Vazir;
+  color: red;
+  font-size: 20px;
+}
+.labeltextsreg {
+  font-family: Vazir;
+  /* color: #800080; */
+  color:#28c5cc;
+  font-size: 20px;
+}
+.atext2 {
+  font-family: Vazir;
+  color: black;
+  font-size: 20px;
+}
+.newnm {
+  font-family: Vazir;
+  color:red;
+  font-size: 17px;
+  display: block;
+}
+.linktexts {
+  top: 100px;
+  font-family: Vazir;
+}

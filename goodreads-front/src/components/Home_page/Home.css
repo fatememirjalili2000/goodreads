@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Vazir";
+  src: local("Vazir"), url(../fonts/Vazir.ttf) format("truetype");
+}
+.txtcard {
+  text-align: right;
+  font-family: Vazir;
+}
+.text {
+  font-family: "Vazir";
+  color: #000;
+  text-align: right;
+}
+.tabs {
+  padding-top: 3rem;
+  margin-left: 950px;
+}
+.card {
+  position: relative;
+  height: 600px;
+  width: 450px;
+  /* margin: 100px; */
+  /* right: 100px; */
+  flex: 1 0 345px;
+  box-shadow: 0 1px 1rem -4px #000;
+  /* margin: 1rem; */
+  /* overflow: hidden; */
+  /* border-radius: 6px; */
+  /* cursor: pointer; */
+  transition: all 250ms ease-in-out;
+}
+.cards {
+  /* left: 10px; */
+  padding-left: 100px;
+  padding-right: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+/* padding: 16px; */
+/* text-align: right; */
+/* background-color: #f1f1f1; */
+/* } */
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.backgroundimagehome {
+  /* width: 2000px; */
+  /* background-image: url(https://s4.uupload.ir/files/finallllll_i1ci.jpg); */
+  /* background-image: url(https://s4.uupload.ir/files/ططططططططططططط_v4wj.jpg); */
+  /* background-image: url(https://s4.uupload.ir/files/bbbb_w9ma.jpg); */
+  /* background-image: url(https://s4.uupload.ir/files/qqqqqqqqqqqq_1ul7.jpg); */
+  /* background-image: url(https://s4.uupload.ir/files/ohhhhhhh_1d06.png); */
+  /* background-image: url(https://s4.uupload.ir/files/ssssssssss_nghz.png); */
+  background-image: url(https://s4.uupload.ir/files/vyyyyyy_s9vl.jpg);
+  /* background-image: url(https://s4.uupload.ir/files/img2_66c.jpeg); */
+  /* background-image: url(https://s4.uupload.ir/files/pexels-photo-1281148_uj9w.jpeg); */
+  /* background-image: url(https://s4.uupload.ir/files/pexels-photo-4397923_4dyb.jpeg); */
+
+  /* background-image: url(https://s4.uupload.ir/files/pexels-photo-6373447_c27x.jpeg); */
+  /* background-image: url(https://s4.uupload.ir/files/یلثثثثثثثثثثثثثثثثثثثثثثثثثثثث_6mfu.jpg); */
+  /* background-image: url(https://s4.uupload.ir/files/pexels-photo-7034288_6edx.jpeg); */
+  /* background-image: url(); */
+  /* background-image: url(https://s4.uupload.ir/files/lll_c134.jpeg); */
+
+  width: 2277px;
+  height: 420px;
+
+  left: 0px;
+  top: 59px;
+}
+
+.titlegood {
+  background-color: #28c5cc;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 60px;
+  font-family: W_mahboob;
+  position: absolute;
+  left: 840px;
+  top: 100px;
+  width: 500px;
+  height: 70px;
+  text-align: center;
+}
+
+.se {
+  top: 200px;
+}
+

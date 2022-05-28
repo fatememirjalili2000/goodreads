@@ -1,0 +1,247 @@
+@font-face {
+	font-family: "Vazir";
+	src: local("Vazir"), url(../fonts/Vazir.ttf) format("truetype");
+}
+
+.edit {
+	position: relative;
+	height: 670px;
+	width: 950px;
+	margin: auto;
+	right: 10px;
+	top: -5px;
+	right: 40px;
+	direction: rtl;
+	text-align: right;
+	font-family: Vazir;
+}
+.buttone {
+	width: 450px;
+	background-color: #28c5cc !important;
+	border-color: #28c5cc !important;
+	font-family: Vazir;
+}
+.img-e {
+	top: 7rem;
+	position: relative;
+	right: 0px;
+	width: 450px;
+	height: 450px;
+	border-radius: 80px;
+
+	// box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+	// border-radius: 50%;
+	// object-position: center;
+	// object-fit: cover;
+	// position: relative;
+	// bottom: 0;
+	// left: 50%;
+	// transform: translateX(-50%) translateY(-64px);
+}
+.img-e2 {
+	top: 7rem;
+	position: relative;
+	right: 100px;
+	width: 250px;
+}
+.icone {
+	position: relative;
+	right: 190px;
+	top: 16px;
+	height: 100px;
+	width: 60px;
+}
+.icontexte {
+	position: relative;
+	right: 190px;
+	top: 1px;
+	font-family: Vazir;
+}
+.warningtexte {
+	font-family: Vazir;
+	color: red;
+}
+.labeltexte {
+	font-family: Vazir;
+	// color: #800080;
+	font-size: 18px;
+}
+.atext {
+	font-family: Vazir;
+	color: #28c5cc;
+	font-size: 20px;
+}
+
+.sabt{
+	font-family: Vazir;
+	color:black;
+	font-size: 25px;
+}
+
+
+.atextgen {
+	font-family: Vazir;
+	color: #28c5cc;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.atext2 {
+	font-family: Vazir;
+	color: #28c5cc;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.atext3 {
+	font-family: Vazir;
+	color: #28c5cc;
+	font-size: 22px;
+}
+.linktexte {
+	top: 100px;
+	font-family: Vazir;
+}
+
+/*LESS Vars*/
+/*Styles for user profile panel*/
+.user {
+	position: relative;
+	transition: 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.user-avatar {
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.user-avatar-edit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: rgba(0, 0, 0, 0.54) !important;
+	opacity: 0;
+	transition: opacity 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.user-avatar-edit md-icon {
+	color: rgba(255, 255, 255, 0.87);
+}
+.user-avatar:hover {
+	transition: 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.user-avatar-edit:hover,
+.user-avatar:hover + .user-avatar-edit {
+	opacity: 1;
+}
+.user-name {
+	font-size: 24px;
+}
+.user-title {
+	color: rgba(0, 0, 0, 0.38);
+	font-weight: 500;
+	margin-top: 0;
+}
+.user-input-container {
+	width: 150px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.user-name,
+.user-title {
+	background-image: none !important;
+}
+.user-name.md-input[disabled],
+.user-title.md-input[disabled] {
+	color: rgba(0, 0, 0, 0.87);
+}
+@media (max-width: 599px) {
+	.user {
+		padding-right: 0;
+		margin-bottom: 16px;
+	}
+	.user-avatar {
+		width: 120px;
+		height: 120px;
+		margin-right: 16px;
+	}
+	.user-avatar-edit {
+		top: 36px;
+		left: 30px;
+	}
+	.md-toolbar-tools > md-menu {
+		padding: 0;
+	}
+}
+@media (max-width: 959px) and (min-width: 600px) {
+	.user {
+		padding-right: 24px;
+	}
+	.user-avatar {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 16px;
+	}
+	.user-avatar-edit {
+		top: 76px;
+		left: 70px;
+	}
+	.user-input-container {
+		padding-left: 8px;
+		width: 200px;
+	}
+}
+@media (min-width: 960px) {
+	.user {
+		padding-right: 24px;
+	}
+	.user-avatar {
+		width: 260px;
+		height: 260px;
+	}
+	.user-avatar-edit {
+		top: 106px;
+		left: 100px;
+	}
+	.user-input-container {
+		width: 250px;
+		text-overflow: ellipsis;
+		padding-left: 24px;
+	}
+}
+body {
+	// background: #f2f2f2;
+	padding: 16px;
+}
+
+.editbox {
+	display: flex;
+	border-radius: 6px;
+	color: #333;
+	top: 10rem;
+	// height: 30px;
+	// background: #eee;
+	padding-top: 10rem;
+	padding: 0.25px;
+	box-shadow: 2 2 1rem #000 inset;
+	overflow-x: auto;
+	position: relative;
+	padding-right: 3rem;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+.textField {
+	margin-left: 1;
+	margin-right: 1;
+	// marginLeft: theme.spacing(1),
+	// marginRight: theme.spacing(1),
+	width: 200;
+}
+
+.atexter {
+	font-family: Vazir;
+	color: red;
+	font-size: 17px;
+	display: block;
+}

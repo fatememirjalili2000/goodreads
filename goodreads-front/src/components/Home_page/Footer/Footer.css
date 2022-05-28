@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Vazir";
+  src: local("Vazir"), url(../../fonts/Vazir.ttf) format("truetype");
+}
+
+.footer {
+  /* position: relative; */
+  background-color: #ffffff;
+  /* height: 300px; */
+  width: 100%;
+  border-color: "#28c5cc";
+  margin-top: 1200px;
+  /* padding-right: 0px; */
+  /* position: absolute;
+  position: sticky; */
+  /* bottom: 1500; */
+  
+  clear: both;
+  position: sticky;
+}
+
+.rwtxt {
+  font-family: Vazir;
+}
